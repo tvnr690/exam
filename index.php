@@ -68,7 +68,7 @@ session_start();
                   <td><?php echo $row['name']; ?></td>
                   <td><?php echo $row['email']; ?></td>
                   <td><?php echo $row['phone']; ?></td>                  
-                  <td><button class="btn btn-success" id="edit">Edit</button></td>
+                  <td><a href="profile.php?id=<?php echo $row['id']; ?>"><button class="btn btn-success" id="edit">Edit</button></a></td>
                 </tr> 
             <?php } ?>            
               
